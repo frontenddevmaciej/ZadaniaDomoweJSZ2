@@ -41,5 +41,11 @@
 // Napisz skrypt, który pobierze od użytkownika wartość liczbową a następnie obliczy i wyświetli w formacie JSON pole
 // oraz obwód koła o podanym promieniu. obwód koła: 2 * pi * R pole: pi * (R ** 2) PI: Math.PI lub 3.1415
 
-var userValue = prompt("Podaj dowolną wartość promienia koła:");
+// var userValue = prompt("Podaj dowolną wartość promienia koła:");
+
+// var kolo = {"obwod":2*Math.PI*userValue, "pole":Math.PI*(userValue**2)};
+
+// alert(JSON.stringify(kolo));
+
+// >-----------------------------------------------------------------------------------------------------------------------------------------<
 
