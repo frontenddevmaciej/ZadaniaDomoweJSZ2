@@ -49,3 +49,14 @@
 
 // >-----------------------------------------------------------------------------------------------------------------------------------------<
 
+// Zadanie 5
+
+// Napisz skrypt, który pobierze od użytkownika dwie liczby a następnie wyświetli ich sumę, różnicę,
+// iloczyn i iloraz. Wartości powinny być wyświetlone jedna pod drugą w postaci pojedynczego ciągu znaków.
+
+// var userValue1 = prompt("Podaje pierwszą wartość liczbową:");
+// var userValue2 = prompt("Podaje drugą wartość liczbową:");
+
+// console.log("suma: " + (userValue1 + userValue2) + "\n" + "róznica: " + (userValue1 - userValue2) + "\n" + "iloczyn: " + (userValue1*userValue2) + "\n" + "iloraz: " + (userValue1/userValue2));
+
+
