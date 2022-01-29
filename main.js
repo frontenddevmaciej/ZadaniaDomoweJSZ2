@@ -60,3 +60,27 @@
 // console.log("suma: " + (userValue1 + userValue2) + "\n" + "róznica: " + (userValue1 - userValue2) + "\n" + "iloczyn: " + (userValue1*userValue2) + "\n" + "iloraz: " + (userValue1/userValue2));
 
 
+// >-----------------------------------------------------------------------------------------------------------------------------------------<
+
+// Zadanie 6
+
+// Napisz skrypt który zapyta użytkownika o wiek a następnie:
+// 1. jeśli ten nie jest pełnoletni wyświetli komunikat o braku dostępu
+// 2. jeśli jest pełnoletni wyświetli zapytanie o potwierdzenie wejścia
+// 3. w zależności od decyzji wyświetli powitanie bądź informację o braku dostępu
+
+// var userAge = prompt("Podaj swój wiek: ");
+
+// if (userAge >= 18){
+//     var userAnswer = confirm("Czy chcesz wejść do środka?");
+//     switch (userAnswer){
+//         case (true):
+//             alert("Wskakuj!");
+//         case (false):
+//             alert("Moze innym razem!");
+//     }
+// }
+// else{
+//     alert("Wybacz, wstęp mają tylko osoby pełnoletnie!");
+// }
+
