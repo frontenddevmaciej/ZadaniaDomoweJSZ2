@@ -84,3 +84,32 @@
 //     alert("Wybacz, wstęp mają tylko osoby pełnoletnie!");
 // }
 
+// >-----------------------------------------------------------------------------------------------------------------------------------------<
+
+// Zadanie 7
+
+// Napisz skrypt, który wygeneruje losową liczbę z przedziału od 1 do 10 a następnie poprosi
+// użytkownika o zgadnięcie tej liczby. Jeżeli użytkownik jej nie odgadnie skrypt powinien wyświetlić
+// informację czy szukana liczba jest większa czy mniejsza od podanej przez użytkownika. W
+// przypadku odgadnięcia skrypt powinien wyświetlić gratulacje.
+
+var randomNum = Math.round(Math.random() * 10);
+console.log(randomNum);
+
+var userValue = 0;
+var i = 0;
+
+do{
+    userValue = prompt("Zgadnij losową liczbę od 1 do 10 podając swój typ:");
+    if(userValue == randomNum){
+        alert("Brawo, zgadłeś!");
+    }
+    else if(userValue < randomNum){
+        alert("Podałeś wartość mniejszą niz wylosowana. Spróbuj ponownie!");
+    }
+    else{
+        alert("Podałeś wartość większą niz wylosowana. Spróbuj ponownie!");
+    }
+}
+while (userValue != randomNum);
+
