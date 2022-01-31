@@ -21,6 +21,18 @@
 
 // Zadanie domowe 2
 
+// Napisz skrypt który przekształca temperaturę podaną w stopniach Celsjusza na temperaturę w stopniach Fahrenheita.
+
+// var userTemp = prompt("Podaj dowolną temp. w stopniach Celsiusza, aby przeliczyć ją na stopnie Fahrenheita:");
+
+// alert(userTemp + " stopni Celsiusza to " + (userTemp*1.8+32) + " stopni Fahrenheita.");
+
+// >-----------------------------------------------------------------------------------------------------------------------------------------<
+
+// Zadanie domowe 3
+
+
+
 
 // >-----------------------------------------------------------------------------------------------------------------------------------------<
 
