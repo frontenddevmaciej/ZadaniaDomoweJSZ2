@@ -31,6 +31,39 @@
 
 // Zadanie domowe 3
 
+// Napisz skrypt, który wyświetli na konsli następujący "magiczny" trójkąt:
+
+// ```
+//  A B R A K A D A B R A
+//   A B R A K A D A B R
+//    A B R A K A D A B
+//     A B R A K A D A
+//      A B R A K A D
+//       A B R A K A
+//        A B R A K
+//         A B R A
+//          A B R
+//           A B
+//            A
+// ```
+
+// Spróbować pogrzebać w trójkącie Pascala
+
+// console.log(" A B R A K A D A B R A");
+// console.log("  A B R A K A D A B R");
+// console.log("   A B R A K A D A B");
+// console.log("    A B R A K A D A");
+// console.log("     A B R A K A D");
+// console.log("      A B R A K A");
+// console.log("       A B R A K");
+// console.log("        A B R A");
+// console.log("         A B R");
+// console.log("          A B");
+// console.log("           A");
+
+// >-----------------------------------------------------------------------------------------------------------------------------------------<
+
+// Zadanie domowe 4
 
 
 
