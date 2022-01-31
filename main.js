@@ -93,23 +93,71 @@
 // informację czy szukana liczba jest większa czy mniejsza od podanej przez użytkownika. W
 // przypadku odgadnięcia skrypt powinien wyświetlić gratulacje.
 
-var randomNum = Math.round(Math.random() * 10);
-console.log(randomNum);
+// var randomNum = Math.round(Math.random() * 10);
+// console.log(randomNum);
 
-var userValue = 0;
-var i = 0;
+// var userValue = 0;
+// var i = 0;
 
-do{
-    userValue = prompt("Zgadnij losową liczbę od 1 do 10 podając swój typ:");
-    if(userValue == randomNum){
-        alert("Brawo, zgadłeś!");
-    }
-    else if(userValue < randomNum){
-        alert("Podałeś wartość mniejszą niz wylosowana. Spróbuj ponownie!");
-    }
-    else{
-        alert("Podałeś wartość większą niz wylosowana. Spróbuj ponownie!");
-    }
-}
-while (userValue != randomNum);
+// do{
+//     userValue = prompt("Zgadnij losową liczbę od 1 do 10 podając swój typ:");
+//     if(userValue == randomNum){
+//         alert("Brawo, zgadłeś!");
+//     }
+//     else if(userValue < randomNum){
+//         alert("Podałeś wartość mniejszą niz wylosowana. Spróbuj ponownie!");
+//     }
+//     else{
+//         alert("Podałeś wartość większą niz wylosowana. Spróbuj ponownie!");
+//     }
+// }
+// while (userValue != randomNum);
+
+// >-----------------------------------------------------------------------------------------------------------------------------------------<
+
+// Zadanie 8
+
+// Napisz skrypt, który pobierze od użytkownika liczbę n . Jeżeli nie poda wartości liczbowej skrypt
+// powinien wyświetlić informację o błędzie. Jeżeli wartość będzie poprawna powinien wyświetlić n
+// razy prośbę o podanie wartości tekstowej. Każda z wartości tekstowych powinna zostać zapisana w
+// tablicy. Następnie użytkownik powinien mieć możliwość wyboru wyświetlenia wartości tablicy w
+// kolejności alfabetycznej rosnąco bądź malejąco.
+
+// var i = 0;
+// var userArray = [];
+
+// do{
+//     var userNum = parseInt(prompt("Podaj dowolną wartość liczbową:"));
+//     if (isNaN(userNum)){
+//         alert("Podałeś wartość nienumeryczną.");
+//     }
+//     else{
+//         do{
+//             userArray.push(prompt("Podaj " + i + " z " + userNum + " słów:"));
+//             i++;
+//         }
+//         while(i < userNum);
+//     }
+// }
+// while(isNaN(userNum) === true);
+
+// var userSort = confirm("Zatwierdź aby posoortować rosnąco lub anuluj aby malejąco:");
+
+// if (userSort == true){
+//     userArray.sort();
+//         for (var z = 0; z < userArray.length; z++)
+//     {
+//         console.log(userArray[z]);
+//     }
+//     alert("Twoje słowa posortowane alfabetycznie rosnąco: " + userArray);
+// }
+// else{
+//     userArray.sort();
+//     userArray.reverse();
+//         for (var z = 0; z < userArray.length; z++)
+//     {
+//         console.log(userArray[z]);
+//     }
+//     alert("Twoje słowa posortowane alfabetycznie malejąco: " + userArray);
+// }
 
