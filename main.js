@@ -1,3 +1,33 @@
+// >-----------------------------------------------------------------------------------------------------------------------------------------<
+
+// ZADANIA DOMOWE
+
+// >-----------------------------------------------------------------------------------------------------------------------------------------<
+
+// Zadanie domowe 1
+
+// Napisz skrypt który dla podanego przez użytkownika roku zwróci informację czy jest on przestępny.
+
+// var userYear = prompt("Podaj dowolny rok, aby sprawdzić czy jest przestępny:");
+
+// if ((userYear % 4 == 0 && userYear % 100 !== 0) || userYear % 400 == 0){
+//     alert("Rok " + userYear + " jest przestępny.");
+// }
+// else {
+//     alert("Rok " + userYear + " nie jest przestępny.");
+// }
+
+// >-----------------------------------------------------------------------------------------------------------------------------------------<
+
+// Zadanie domowe 2
+
+
+// >-----------------------------------------------------------------------------------------------------------------------------------------<
+
+// ZADANIA Z ZAJĘĆ
+
+// >-----------------------------------------------------------------------------------------------------------------------------------------<
+
 // Zadanie 1
 // Stwórz prostą stronę internetową i załącz do niej zewnętrzny skrypt który wyświetli w konsoli deweloperskiej tekst Hello JavaScript!.
 
