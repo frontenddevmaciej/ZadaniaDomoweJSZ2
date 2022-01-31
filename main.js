@@ -65,6 +65,33 @@
 
 // Zadanie domowe 4
 
+// Napisz skrypt dla wprowadzonej liczby całkowitej `n` wyświetli gwiazdkami w konsoli prostokąt złożony z `n` wierszy oraz `2n` kolumn.
+
+// Przykład:
+
+// Dla n = 5:
+
+// ```
+// **********
+// **********
+// **********
+// **********
+// **********
+// ```
+
+// do{
+//     var userN = parseInt(prompt("Podaj dowolną wartość całkowitą:"));
+// }
+// while(isNaN(userN) == true);
+
+// for (var k = 0; k < userN; k++){
+//     console.log("*".repeat(2*userN));
+// }
+
+// >-----------------------------------------------------------------------------------------------------------------------------------------<
+
+// Zadanie domowe 5
+
 
 
 // >-----------------------------------------------------------------------------------------------------------------------------------------<
